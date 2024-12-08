@@ -1,8 +1,47 @@
-# React + Vite
+# **DALL-E Clone**  
+A Full Stack MERN-based AI Image Generation Application inspired by MidJourney and DALL-E. This project demonstrates the integration of AI with modern web development technologies for creating and sharing AI-generated images.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## **Table of Contents**  
+- [About the Project](#about-the-project)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Folder Structure](#folder-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## **About the Project**  
+The DALL-E Clone project showcases a powerful AI-driven image generation system that allows users to create unique images based on textual prompts. It leverages OpenAI's advanced APIs, integrated seamlessly with the MERN stack.
+
+
+
+---
+
+## **Tech Stack**  
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **AI Integration:** OpenAI API  
+- **Hosting:**  
+  - Frontend: Netlify  
+  - Backend: Render/Heroku  
+  - Database: MongoDB Atlas  
+
+---
+
+## **Installation**  
+
+### Prerequisites  
+- **Node.js:** v14+  
+- **MongoDB:** Local or Atlas  
+- **OpenAI API Key** (Add in `.env` file)  
+
+### Clone the Repository  
+```bash
+git clone https://github.com/MothilalShiva/dalle_clone.git
+cd dalle_clone
